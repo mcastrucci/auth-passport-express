@@ -1,0 +1,24 @@
+.index_container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.index__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px black solid;
+    border-radius: 20px;
+}
+.index__header__user {
+    
+}
+.index__header__title {
+}
+.index__header__logout {
+    cursor: pointer;
+}
+.index__content {
+    margin-top: 20px;
+    background-color: whitesmoke;
+}

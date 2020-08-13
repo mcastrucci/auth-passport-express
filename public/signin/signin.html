@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='signin/signin.css'>
+    <script src='signin/signin.js'></script>
+</head>
+<body>
+    <div class="signin-container">
+        <div class="signin-wrapper">
+            <h2>sign in</h2>
+            <div class="signin__form-container">
+                <form method="post" class="signin__form" action="/login">
+                    <div class="signin__form--input_container">
+                        <label>Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="signin__form--input_container">
+                        <label>password</label>
+                        <input type="text" id="password" name="password">
+                    </div>
+                    <div class="signin__form--input_container">
+                        <input id="form-submit" type="submit" value="sign in">
+                    </div>
+                </form>
+            </div>
+            <div class="signin__signup">
+                <h2>sign up</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
